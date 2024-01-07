@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink&display=swap');
+
+body {
+    background-color: #fdeff2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Aref Ruqaa Ink', serif;
+    background-image: url('sakura.jpg');
+}
+
+.login-container {
+    width: 30%;
+    height: auto;
+    background-color: #fff;
+    padding: 40px 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h2 {
+    color: #ff66b2;
+    font-size: 3rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 1.3rem;
+}
+
+label {
+    color: #333;
+}
+
+input {
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    padding: 12px;
+    font-size: 20px;
+    background-color: #ff66b2;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Aref Ruqaa Ink', serif;
+}
+
+button:hover {
+    background-color: #e64d98;
+}
